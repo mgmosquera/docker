@@ -64,9 +64,9 @@ Vagrant.configure("2") do |config|
   # Enable provisioning with a shell script. Additional provisioners such as
   # Ansible, Chef, Docker, Puppet and Salt are also available. Please see the
   # documentation for more information about their specific syntax and use.
-   config.vm.provision "shell", inline: <<-SHELL
-     apt-get update
-     curl -fsSL https://get.docker.com -o get-docker.sh
-     sudo sh ./get-docker.sh
-   SHELL
+ #  config.vm.provision "shell", inline: <<-SHELL
+  #   apt-get update
+   #  curl -fsSL https://get.docker.com -o get-docker.sh
+   #  sudo sh ./get-docker.sh
+  # SHELL
 end
